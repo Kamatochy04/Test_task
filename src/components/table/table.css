@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 30px;
+}
+
+.table__box {
+  padding: 1.5rem 1rem;
+  border: 1px solid #000;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: start;
+  align-items: center;
+  width: 1fr;
+}
+
+.input {
+  /* position: fixed; */
+  padding: 0.9rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  width: 300px;
+}
